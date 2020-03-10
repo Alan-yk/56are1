@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+    <head>
+         <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>{$Think.lang.REGISTER}</title>
+
+        <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto:400,100,300,500">
+        <link rel="stylesheet" href="__PUBLIC__/dist/css/bootstrap.min.css">
+        <link rel="stylesheet" href="__PUBLIC__/dist/css/font-awesome.min.css">
+		<link rel="stylesheet" href="__PUBLIC__/dist/css/form-elements.css">
+        <link rel="stylesheet" href="__PUBLIC__/dist/css/style1.css">
+    <link rel="stylesheet" href="__PUBLIC__/dist/css/bootstrapValidator.min.css">
+        <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+        <!--[if lt IE 9]>
+            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+            <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+        <![endif]-->
+        <style type="text/css">
+            body{
+                background-image: url(__PUBLIC__/dist/img/login.jpg);
+            }
+        </style>
+    </head>
+    <body>
+        <!-- Top content -->
+        <nav class="navbar navbar-default navbar-fixed-top opacity50" role="navigation">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                        <span class="sr-only">56are1</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#">56are1</a>
+                </div>
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav">
+                        <li><a href="{:U('Home/Index/index')}">{$Think.lang.URL_INDEX}</a></li>
+                        <li><a href="{:U('Home/Topic/forum')}">{$Think.lang.URL_FORUM}</a></li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">{$Think.lang.URL_NATION}<span class="caret"></span></a>
+                            <ul class="dropdown-menu" role="menu">
+                                <li><a href="{:U('Home/Index/meng')}">{$Think.lang.NATION_MENG}</a></li>
+                                <li class="divider"></li>
+                                <li><a href="{:U('Home/Index/hui')}">{$Think.lang.NATION_HUI}</a></li>
+                                <li class="divider"></li>
+                                <li><a href="{:U('Home/Index/tu')}">{$Think.lang.NATION_TU}</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <ul class="nav navbar-nav navbar-right">
+                        <if condition="$login eq false">
+                        <li><a href="{:U('Home/User/register')}"><span class="glyphicon glyphicon-user"></span>{$Think.lang.REGISTER}</a></li> 
+                        <li><a href="{:U('Home/User/login')}"><span class="glyphicon glyphicon-log-in"></span>{$Think.lang.LOGIN}</a></li> <else /><li><a href="{:U('Home/User/space',array('uid'=>$user_id))}">{$username}</a></li></if>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div class="top-content">
+            <div class="inner-bg">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-8 col-sm-offset-2 text">
+                            <h1><strong></strong>{$Think.lang.REGISTER}</h1>
+                            <div class="description">
+                            	<p>
+	                            	{$Think.lang.REGISTER_INTRO}
+                            	</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-6 col-sm-offset-3 form-box">
+                        	<div class="form-top">
+                        		<div class="form-top-left">
+                        			<h3>{$Think.lang.REGISTER_TO_OUR}</h3>
+                        		</div>
+                        		<div class="form-top-right">
+                        			<i class="fa fa-key"></i>
+                        		</div>
+                            </div>
+                            <div class="form-bottom">
+			                    <form role="form" action="" class="login-form">
+			                    	<div class="form-group">
+			                    		<label class="sr-only" for="username">{$Think.lang.USER_NAME}:</label>
+			                        	<input type="text" name="username" placeholder="{$Think.lang.USER_NAME}" class="form-username form-control" id="username">
+			                        </div>
+                                    <div class="form-group">
+                                        <label class="sr-only" for="useremail">{$Think.lang.USER_EMAIL}:</label>
+                                        <input type="text" name="useremail" placeholder="{$Think.lang.USER_EMAIL}" class="form-useremail form-control" id="useremail">
+                                    </div>
+			                        <div class="form-group">
+			                        	<label class="sr-only" for="password">{$Think.lang.USER_EMAIL}</label>
+			                        	<input type="password" name="password" placeholder="{$Think.lang.ENTER_PASS}" class="form-password form-control" id="password">
+			                        </div>
+                                    <div class="form-group">
+                                        <label class="sr-only" for="repassword">{$Think.lang.USER_EMAIL}</label>
+                                        <input type="password" name="repassword" placeholder="{$Think.lang.RE_PASS}" class="form-password form-control" id="repassword">
+                                    </div>
+                                    <span id="btn-register" class="btn">{$Think.lang.REGISTER}</span>
+                                    <div id="register-result">
+                                        
+                                    </div>
+			                    </form>
+		                    </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Javascript -->
+        <script src="__PUBLIC__/dist/js/jquery.min.js"></script>
+        <script src="__PUBLIC__/dist/js/bootstrap.min.js"></script>
+        <script src="__PUBLIC__/dist/js/jquery.backstretch.min.js"></script>
+        <script src="__PUBLIC__/dist/js/scripts.js"></script>
+        <script src="__PUBLIC__/dist/js/bootstrapValidator.min.js"></script>
+        <script>
+            $(function () {
+                $('form').bootstrapValidator({
+　　　　　　　　message: 'This value is not valid',
+            　　feedbackIcons: {
+                    valid: 'glyphicon glyphicon-ok',
+                　　invalid: 'glyphicon glyphicon-remove',
+                　　validating: 'glyphicon glyphicon-refresh'
+            　　},
+                fields: {
+                    username: {
+                        message: '{$Think.lang.CHECK_FAIL}',
+                        validators: {
+                            notEmpty: {
+                                message: '{$Think.lang.USER_NAME_CANT_BE_EMPTY}'
+                            },
+                            stringLength: {
+                                min: 5,
+                                max: 20,
+                                message: '{$Think.lang.USER_NAME_LENGTH}'
+                            },
+                            regexp: {
+                                regexp: /^\d*([\u4e00-\u9fa5]|[a-zA-Z])+\d*$/,
+                                message: '{$Think.lang.USER_NAME_REGEXP}'
+                            }
+                        }
+                    },
+                        useremail: {
+                            validators: {
+                                notEmpty: {
+                                    message: '{$Think.lang.EMAIL_CANT_BE_EMPTY}'
+                                },
+                                emailAddress: {
+                                    message: "{$Think.lang.EMAIL_ERROR}"
+                                }
+
+                            }
+                        },
+
+                        password: {
+                            validators: {
+                                notEmpty: {
+                                    message: '{$Think.lang.PASSWORD_CANT_BE_EMPTY}'
+                                },
+                                stringLength: {
+                                    min: 5,
+                                    max: 20,
+                                    message: '{$Think.lang.PASSWORD_LENGTH}'
+                                }
+                            }
+                        },
+                        repassword: {
+                            validators: {
+                                notEmpty: {
+                                    message: '{$Think.lang.RE_PASS_CANT_BE_EMPTY}'
+                                },
+                                stringLength: {
+                                    min: 5,
+                                    max: 20,
+                                    message: '{$Think.lang.RE_PASS_LENGTH}'
+                                },
+                                identical: {
+                                    field: 'password',
+                                    message: '{$Think.lang.PASS_NOT_SAME}'
+                                }
+                            }
+                        }
+                    }
+                });
+
+            }
+        );
+                $("#btn-register").click(function() {
+                    var postUrl = "{:U('Home/User/register'),'',''}";
+                    var username = $('input[name=username]');
+                    var password = $('input[name=password]');
+                    var repassword = $('input[name=repassword]');
+                    var email = $('input[name=useremail]');
+                    var result;
+                    //alert(111);
+                    $.post(postUrl,{ username : username.val(), password : password.val(), repassword : repassword.val(), email : email.val() },function(data){
+                            switch(data.status){
+                                case 0:
+                                    result = "<div class='alert alert-danger'>{$Think.lang.REGISTER_FAIL}</div>";
+                                    break;
+                                case 1:
+                                    result = "<div class='alert alert-success'>{$Think.lang.REGISTER_SUCCESS}</div>";
+                                    break;
+                                case 2:
+                                    result = "<div class='alert alert-warning'>{$Think.lang.U_P_CANT_BE_EMPTY}</div>";
+                                    break;
+                                case 3:
+                                    result = "<div class='alert alert-warning'>{$Think.lang.USER_EXITS}</div>";
+                                    break;
+                                case 4:
+                                    result = "<div class='alert alert-warning'>{$Think.lang.EMAIL_EXITS}</div>";
+                                    break;
+                                case 5:
+                                    result = "<div class='alert alert-warning'>{$Think.lang.PASS_NOT_SAME}</div>";
+                                    break;
+                                default :
+                                    result = "<div class='alert alert-danger'>{$Think.lang.REGISTER_FAIL}</div>";
+                            }
+                            $("#register-result").html(result);
+                            if(data.status==1){
+                                setTimeout("location.href='../../../index.php';", 1000);
+                            }
+                    },'json');
+                });
+        </script>
+        <!--[if lt IE 10]>
+            <script src="assets/js/placeholder.js"></script>
+        <![endif]-->
+    </body>
+</html>

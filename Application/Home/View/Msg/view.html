@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="__PUBLIC__/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="__PUBLIC__/dist/css/toastr.min.css">
+	<title>{$title}</title>
+	<style>
+		.msgbox {
+			margin-top: 5%;
+			margin-left:20%;
+			margin-right:20%;
+			background: #999999;
+		}
+	</style>
+</head>
+<body>
+	<div class="container-fluid">
+		<div class="row">
+			<nav class="navbar navbar-default navbar-fixed-top opacity50" role="navigation">
+               	<div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                        <span class="sr-only">56are1</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#">56are1</a>
+            	</div>
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav">
+                        <li><a href="{:U('Home/Index/index')}">{$Think.lang.URL_INDEX}</a></li>
+                        <li><a href="{:U('Home/Topic/forum')}">{$Think.lang.URL_FORUM}</a></li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">{$Think.lang.URL_NATION}<span class="caret"></span></a>
+                            <ul class="dropdown-menu" role="menu">
+                                <li><a href="{:U('Home/Index/meng')}">{$Think.lang.NATION_MENG}</a></li>
+                                <li class="divider"></li>
+                                <li><a href="{:U('Home/Index/hui')}">{$Think.lang.NATION_HUI}</a></li>
+                                <li class="divider"></li>
+                                <li><a href="{:U('Home/Index/tu')}">{$Think.lang.NATION_TU}</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <ul class="nav navbar-nav navbar-right">
+                        <if condition="$login eq false">
+                        <li><a href="{:U('Home/User/register')}"><span class="glyphicon glyphicon-user"></span>{$Think.lang.REGISTER}</a></li> 
+						<li><a href="{:U('Home/User/login')}"><span class="glyphicon glyphicon-log-in"></span>{$Think.lang.LOGIN}</a></li> <else /><li><a href="{:U('Home/User/space',array('uid'=>$user_id))}">{$username}</a></li><li><a href="{:U('Home/Msg/index')}">消息<if condition="$new_msg NEQ 0"><span class="badge">{$new_msg}</span></if></a></li></if>
+                    </ul>
+                </div>
+	        </nav>
+	        <div class="msgbox">
+                <div class="col-lg-12">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                           {$Think.lang.TITLE} {$msg.title}
+                        </div>
+                        	
+                        <div class="panel-body" style="height: 500px;">
+							{$msg.content|htmlspecialchars_decode}
+                        </div>
+                        <div class="panel-footer">
+							{$Think.lang.FROM}:{$poster_name}&nbsp;&nbsp;{$Think.lang.TIME}:{$msg.time|date="Y-m-d H:s",###}
+                        </div>
+                    </div>
+                    <div class="row">
+						<a class="btn btn-info" href="{:U('Home/Msg/send',array('mid'=>$mid))}">{$Think.lang.REPLY}</a>&nbsp;<a class="btn btn-info" href="{:U('Home/Msg/del',array('mid'=>$mid))}">{$Think.lang.DELE}</a>
+                    </div>
+                </div>
+	        </div>
+		</div>
+	</div>
+	<script src="__PUBLIC__/dist/js/jquery.min.js"></script>
+    <script src="__PUBLIC__/dist/js/bootstrap.min.js"></script>
+</body>
+</html>

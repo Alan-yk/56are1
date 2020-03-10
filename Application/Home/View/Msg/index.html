@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="__PUBLIC__/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="__PUBLIC__/dist/css/toastr.min.css">
+	<title>{$title}</title>
+	<style>
+	#page-wrapper {
+	  padding: 0 15px;
+	  width: 80%;
+	  margin-left:10%;
+	  margin-right: 10%;
+	  margin-top: 30px;
+	  min-height: 568px;
+	  background-color: white;
+    }
+    .read{
+    	width: 2%;
+    	height: 5%;
+    	margin-left:1%;
+    }
+	</style>
+</head>
+<body>
+	<div class="container-fluid">
+		<div class="row">
+			<nav class="navbar navbar-default navbar-fixed-top opacity50" role="navigation">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                        <span class="sr-only">56are1</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#">56are1</a>
+                </div>
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav">
+                        <li><a href="{:U('Home/Index/index')}">{$Think.lang.URL_INDEX}</a></li>
+                        <li><a href="{:U('Home/Topic/forum')}">{$Think.lang.URL_FORUM}</a></li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">{$Think.lang.URL_NATION}<span class="caret"></span></a>
+                            <ul class="dropdown-menu" role="menu">
+                                <li><a href="{:U('Home/Index/meng')}">{$Think.lang.NATION_MENG}</a></li>
+                                <li class="divider"></li>
+                                <li><a href="{:U('Home/Index/hui')}">{$Think.lang.NATION_HUI}</a></li>
+                                <li class="divider"></li>
+                                <li><a href="{:U('Home/Index/tu')}">{$Think.lang.NATION_TU}</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <ul class="nav navbar-nav navbar-right">
+                        <if condition="$login eq false">
+                        <li><a href="{:U('Home/User/register')}"><span class="glyphicon glyphicon-user"></span>{$Think.lang.REGISTER}</a></li> 
+						<li><a href="{:U('Home/User/login')}"><span class="glyphicon glyphicon-log-in"></span>{$Think.lang.LOGIN}</a></li> <else /><li><a href="{:U('Home/User/space',array('uid'=>$user_id))}">{$username}</a></li><li><a href="{:U('Home/Msg/index')}">消息<if condition="$new_msg NEQ 0"><span class="badge">{$new_msg}</span></if></a></li></if>
+                    </ul>
+                </div>
+	        </nav>
+		    <div id="page-wrapper">
+				<div class="row">
+	                <div class="col-lg-12">
+	                    <h1 class="page-header">{$Think.lang.MSG}</h1>
+	                </div>
+	            </div>
+	            <div class="row">
+	                <div class="col-lg-12">
+	                    <div class="panel panel-default">
+	                        <div class="panel-heading">
+	                            {$Think.lang.MSG_LIST}
+	                        </div>
+	                        
+	                        <div class="panel-body">
+	                            <table width="100%" class="table table-striped table-bordered table-hover" id="dataTables-example">
+	                                <thead>
+	                                    <tr>
+	                                        <th>{$Think.lang.NUMBER}:</th>
+	                                        <th>{$Think.lang.TITLE}:</th>
+	                                        <th>{$Think.lang.TIME}:</th>
+	                                        <th>{$Think.lang.FROM}:</th>
+	                                        <th>{$Think.lang.VIEW}:</th>
+	                                    </tr>
+	                                </thead>
+									<volist name="Msg_row" id="vo">
+										<tbody>
+											<td>{$i+($page-1)*10}</td>
+											<td><a href="{$vo.url}">{$vo.title}<if condition="$vo['is_read']"><img src="__PUBLIC__/dist/img/unread.png" class="read" alt="new_msg"><else/><img src="__PUBLIC__/dist/img/read.png" class="read" alt="read"></if></a></td>
+											<td>{$vo.time|date="Y-m-d H:s",###}</td>
+											<td><a href="{$vo.user_url}">{$vo.poster_name}</a></td>
+											<td><a href="{$vo.del_url}">{$Think.lang.DELE}</a></td>
+										</tbody>
+									</volist>
+	                            </table>
+	                        </div>
+	                    </div> 
+	                </div>
+	            </div>
+	            <div class="row">
+			        <nav>
+			          <ul class="pagination">
+			            <li <if condition="$page eq 1">class="disable"</if>>
+			              <a href="{:U('Home/Msg/index',array('pn'=>$page-1))}" aria-label="Previous">
+			                <span aria-hidden="true">&laquo;</span>
+			              </a>
+			            </li>
+							<for start="1" end="$Msg_num+1">
+								<li <if condition="$page eq $i">class="active"</if>><a href="{:U('Home/Msg/index',array('pn'=>$i))}">{$i}</a></li>
+							</for>
+			            <li>
+			              <a href="{:U('Home/Msg/index',array('pn'=>$page+1))}" aria-label="Next">
+			                <span aria-hidden="true">&raquo;</span>
+			              </a>
+			            </li>
+			          </ul>
+			        </nav>
+	            </div>
+			</div>
+		</div>
+	</div>
+	<script src="__PUBLIC__/dist/js/jquery.min.js"></script>
+    <script src="__PUBLIC__/dist/js/bootstrap.min.js"></script>
+</body>
+</html>

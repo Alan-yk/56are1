@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="zh-ch">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="__PUBLIC__/dist/css/bootstrap.min.css">
+	<title>{$title}</title>
+</head>
+<body>
+	<style type="text/css">
+	    body {
+	        background: #e5e5e5 url(__PUBLIC__/dist/img/forum.jpg);
+	    }
+	    .thread {
+		    position: relative;
+		    border-bottom: 1px solid #F0F0F0;
+		    padding: 6px 10px;
+		    cursor: pointer;
+		}
+	</style>
+<!-- 卡通头像来源http://tieba.baidu.com/p/1335664156 -->
+	<div class="container">
+		<nav class="navbar navbar-default navbar-fixed-top opacity50" role="navigation">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                        <span class="sr-only">56are1</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#">56are1</a>
+                </div>
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav">
+                        <li><a href="{:U('Home/Index/index')}">{$Think.lang.URL_INDEX}</a></li>
+                        <li class="active"><a href="{:U('Home/Topic/forum')}">{$Think.lang.URL_FORUM}</a></li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">{$Think.lang.URL_NATION}<span class="caret"></span></a>
+                            <ul class="dropdown-menu" role="menu">
+                                <li><a href="{:U('Home/Index/meng')}">{$Think.lang.NATION_MENG}</a></li>
+                                <li class="divider"></li>
+                                <li><a href="{:U('Home/Index/hui')}">{$Think.lang.NATION_HUI}</a></li>
+                                <li class="divider"></li>
+                                <li><a href="{:U('Home/Index/tu')}">{$Think.lang.NATION_TU}</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <ul class="nav navbar-nav navbar-right">
+                        <if condition="$login eq false">
+                        <li><a href="{:U('Home/User/register')}"><span class="glyphicon glyphicon-user"></span>{$Think.lang.REGISTER}</a></li> 
+                        <li><a href="{:U('Home/User/login')}"><span class="glyphicon glyphicon-log-in"></span>{$Think.lang.LOGIN}</a></li> <else /><li><a href="{:U('Home/User/space',array('uid'=>$user_id))}">{$username}</a></li><li><a href="{:U('Home/Msg/index')}">消息<if condition="$new_msg NEQ 0"><span class="badge">{$new_msg}</span></if></a></li></if>
+                    </ul>
+                </div>
+            </div>
+        </nav><br><br>
+	    <div style="background: #f5f5f5;font-size: 15px;">
+	        <volist name="list" id="vo">
+	            <div class="thread" style="background: #F0F0F0;margin-top: 10px;margin-bottom: 10px;">
+	                <span style="height: 100%;width: 60px;">
+	                    <img src="__PUBLIC__{$vo.img}" height="45" width="35">
+	                </span>
+	                <span>
+	                    <a href="{:U('Home/Topic/view',array('tid'=>$vo['topic_id']))}">#{$vo.theme}#&nbsp;&nbsp;&nbsp;{$vo.topic_title}</a>
+	                </span>
+	                <div style="font-size: 16px;">
+	                    {$Think.lang.AUTHOR}：{$vo.topic_poster} {$Think.lang.POST_TIME}:{$vo.time}
+	                </div>
+	            </div>
+	        </volist>
+	    </div>
+	<nav>
+	  <ul class="pagination">
+	    <li>
+	      <a href="{:U('Home/Topic/forum',array('pn'=>$page-1))}" aria-label="Previous">
+	        <span aria-hidden="true">&laquo;</span>
+	      </a>
+	    </li>
+	    <volist name="num" id="vo">
+	        <li <if condition="$page eq $i">class="active"</if>><a href="{:U('Home/Topic/forum',array('pn'=>$i))}">{$i}</a></li>
+	    </volist>
+	    <li>
+	      <a href="{:U('Home/Topic/forum',array('pn'=>$page+1))}" aria-label="Next">
+	        <span aria-hidden="true">&raquo;</span>
+	      </a>
+	    </li>
+	  </ul>
+	</nav>
+	<div>
+	    <a href="{:U('Home/Topic/post')}" class="btn btn-info">{$Think.lang.POST_TOPIC}</a>
+	</div>
+	</div>
+	<script src="__PUBLIC__/dist/js/jquery.min.js"></script>
+    <script src="__PUBLIC__/dist/js/bootstrap.min.js"></script>
+</body>
+</html>

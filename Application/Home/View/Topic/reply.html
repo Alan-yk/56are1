@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+	<meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="__PUBLIC__/dist/css/bootstrap.min.css">
+    <style type="text/css">
+	  .panel_header {
+	    	line-height: 1.6;
+	    	padding: 4px 12px;
+	    	box-shadow: 0 1px 1px;
+	    	background-color: #F4F4F4;
+	        background-image: -webkit-linear-gradient(top, #F7F7F7, #EEEEEE);
+	    	margin-bottom: 10px;
+	  }
+</style>
+	<title>{$title}</title>
+</head>
+<body>
+	<div class="container-fluid">
+        <nav class="navbar navbar-default navbar-fixed-top opacity50" role="navigation">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                        <span class="sr-only">56are1</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#">56are1</a>
+                </div>
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav">
+                        <li class="active"><a href="{:U('Home/Index/index')}">{$Think.lang.URL_INDEX}</a></li>
+                        <li><a href="{:U('Home/Topic/forum')}">{$Think.lang.URL_FORUM}</a></li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">{$Think.lang.URL_NATION}<span class="caret"></span></a>
+                            <ul class="dropdown-menu" role="menu">
+                                <li><a href="{:U('Home/Index/meng')}">{$Think.lang.NATION_MENG}</a></li>
+                                <li class="divider"></li>
+                                <li><a href="{:U('Home/Index/hui')}">{$Think.lang.NATION_HUI}</a></li>
+                                <li class="divider"></li>
+                                <li><a href="{:U('Home/Index/tu')}">{$Think.lang.NATION_TU}</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <ul class="nav navbar-nav navbar-right">
+                        <if condition="$login eq false">
+                        <li><a href="{:U('Home/User/register')}"><span class="glyphicon glyphicon-user"></span>{$Think.lang.REGISTER}</a></li> 
+                        <li><a href="{:U('Home/User/login')}"><span class="glyphicon glyphicon-log-in"></span>{$Think.lang.LOGIN}</a></li> <else /><li><a href="{:U('Home/User/space',array('uid'=>$user_id))}">{$username}</a></li><li><a href="{:U('Home/Msg/index')}">消息<if condition="$new_msg NEQ 0"><span class="badge">{$new_msg}</span></if></a></li></if>
+                    </ul>
+                </div>
+            </div>
+        </nav><br/><br/><br/><br/><br/><br/>
+        <div class="panel_header">
+    		<form action="" method="post" style="height: 800px;">
+           		<span> 回复:&nbsp;&nbsp;{$title}</span>
+      			<script id="editor" type="text/plain" style="width: 100%;height: 80%;"></script>
+      			<button class="btn btn-info">确认</button>
+    		</form>
+  		</div>
+    </div>
+    <script type="text/javascript" charset="utf-8" src="__PUBLIC__/ueditor/ueditor.config.js"></script>
+    <script type="text/javascript" charset="utf-8" src="__PUBLIC__/ueditor/ueditor.all.min.js"></script>
+    <script type="text/javascript">
+  		var ue = UE.getEditor('editor');
+	</script>
+	<script src="__PUBLIC__/dist/js/jquery.min.js"></script>
+    <script src="__PUBLIC__/dist/js/bootstrap.min.js"></script>
+</body>
+</html>

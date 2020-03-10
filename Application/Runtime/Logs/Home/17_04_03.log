@@ -1,0 +1,761 @@
+[ 2017-04-03T11:01:58+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.019523s ]
+
+[ 2017-04-03T11:04:04+08:00 ] 127.0.0.1 /index.php/Home/Topic/forum.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000603s ]
+ERR: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES)
+
+[ 2017-04-03T11:04:33+08:00 ] 127.0.0.1 /index.php/Home/Topic/forum.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000361s ]
+
+[ 2017-04-03T11:04:37+08:00 ] 127.0.0.1 /index.php/Home/Topic/view/tid/35.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000306s ]
+
+[ 2017-04-03T11:05:54+08:00 ] 127.0.0.1 /index.php/Home/Index/tu.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000416s ]
+
+[ 2017-04-03T11:06:01+08:00 ] 127.0.0.1 /index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000326s ]
+
+[ 2017-04-03T11:06:04+08:00 ] 127.0.0.1 /index.php/Home/Index/tu.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000361s ]
+
+[ 2017-04-03T11:06:09+08:00 ] 127.0.0.1 /index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000425s ]
+
+[ 2017-04-03T11:06:12+08:00 ] 127.0.0.1 /index.php/Home/Index/meng.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000523s ]
+
+[ 2017-04-03T11:10:01+08:00 ] 127.0.0.1 /index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000505s ]
+
+[ 2017-04-03T11:10:05+08:00 ] 127.0.0.1 /index.php/Home/Index/hui.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000391s ]
+
+[ 2017-04-03T11:10:05+08:00 ] 127.0.0.1 /index.php/Home/Index/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000056s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000813s ]
+
+[ 2017-04-03T11:10:05+08:00 ] 127.0.0.1 /index.php/Home/Index/plugins/jquery.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000475s ]
+ERR: 非法操作:plugins
+
+[ 2017-04-03T11:10:05+08:00 ] 127.0.0.1 /index.php/Home/Index/plugins/jquery.appear.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000327s ]
+ERR: 非法操作:plugins
+
+[ 2017-04-03T11:10:05+08:00 ] 127.0.0.1 /index.php/Home/Index/js/template.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000311s ]
+ERR: 非法操作:js
+
+[ 2017-04-03T11:10:05+08:00 ] 127.0.0.1 /index.php/Home/Index/js/custom.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000311s ]
+ERR: 非法操作:js
+
+[ 2017-04-03T11:10:05+08:00 ] 127.0.0.1 /index.php/Home/Index/images/section-image-1.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000301s ]
+
+[ 2017-04-03T11:10:05+08:00 ] 127.0.0.1 /index.php/Home/Index/images/portfolio-1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000345s ]
+
+[ 2017-04-03T11:10:05+08:00 ] 127.0.0.1 /index.php/Home/Index/images/portfolio-2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000303s ]
+
+[ 2017-04-03T11:10:05+08:00 ] 127.0.0.1 /index.php/Home/Index/images/portfolio-3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000303s ]
+
+[ 2017-04-03T11:10:05+08:00 ] 127.0.0.1 /index.php/Home/Index/images/portfolio-4.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000307s ]
+
+[ 2017-04-03T11:10:05+08:00 ] 127.0.0.1 /index.php/Home/Index/images/portfolio-5.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000309s ]
+
+[ 2017-04-03T11:10:05+08:00 ] 127.0.0.1 /index.php/Home/Index/images/portfolio-6.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000337s ]
+
+[ 2017-04-03T11:10:05+08:00 ] 127.0.0.1 /index.php/Home/Index/images/portfolio-7.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000318s ]
+
+[ 2017-04-03T11:10:05+08:00 ] 127.0.0.1 /index.php/Home/Index/images/portfolio-8.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000419s ]
+
+[ 2017-04-03T11:10:05+08:00 ] 127.0.0.1 /index.php/Home/Index/images/portfolio-9.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000300s ]
+
+[ 2017-04-03T11:10:05+08:00 ] 127.0.0.1 /index.php/Home/Index/images/portfolio-10.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000300s ]
+
+[ 2017-04-03T11:10:05+08:00 ] 127.0.0.1 /index.php/Home/Index/images/portfolio-11.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000307s ]
+
+[ 2017-04-03T11:10:05+08:00 ] 127.0.0.1 /index.php/Home/Index/images/portfolio-12.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000293s ]
+
+[ 2017-04-03T11:10:05+08:00 ] 127.0.0.1 /index.php/Home/Index/images/client-1.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000305s ]
+
+[ 2017-04-03T11:10:05+08:00 ] 127.0.0.1 /index.php/Home/Index/images/client-2.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000316s ]
+
+[ 2017-04-03T11:10:05+08:00 ] 127.0.0.1 /index.php/Home/Index/images/client-3.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000316s ]
+
+[ 2017-04-03T11:10:05+08:00 ] 127.0.0.1 /index.php/Home/Index/images/client-4.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000298s ]
+
+[ 2017-04-03T11:10:05+08:00 ] 127.0.0.1 /index.php/Home/Index/images/client-5.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000319s ]
+
+[ 2017-04-03T11:10:05+08:00 ] 127.0.0.1 /index.php/Home/Index/images/client-6.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000319s ]
+
+[ 2017-04-03T11:10:06+08:00 ] 127.0.0.1 /index.php/Home/Index/plugins/modernizr.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000492s ]
+ERR: 非法操作:plugins
+
+[ 2017-04-03T11:10:06+08:00 ] 127.0.0.1 /index.php/Home/Index/plugins/jquery.backstretch.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000614s ]
+ERR: 非法操作:plugins
+
+[ 2017-04-03T11:10:06+08:00 ] 127.0.0.1 /index.php/Home/Index/plugins/isotope/isotope.pkgd.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000637s ]
+ERR: 非法操作:plugins
+
+[ 2017-04-03T11:10:06+08:00 ] 127.0.0.1 /index.php/Home/Index/bootstrap/js/bootstrap.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000629s ]
+ERR: 非法操作:bootstrap
+
+[ 2017-04-03T11:10:24+08:00 ] 127.0.0.1 /index.php/Home/Index/hui.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000391s ]
+
+[ 2017-04-03T11:10:24+08:00 ] 127.0.0.1 /index.php/Home/Index/images/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000335s ]
+
+[ 2017-04-03T11:10:24+08:00 ] 127.0.0.1 /index.php/Home/Index/images/section-image-1.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000305s ]
+
+[ 2017-04-03T11:10:24+08:00 ] 127.0.0.1 /index.php/Home/Index/images/portfolio-1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000416s ]
+
+[ 2017-04-03T11:10:24+08:00 ] 127.0.0.1 /index.php/Home/Index/images/portfolio-2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000303s ]
+
+[ 2017-04-03T11:10:24+08:00 ] 127.0.0.1 /index.php/Home/Index/images/portfolio-3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000311s ]
+
+[ 2017-04-03T11:10:24+08:00 ] 127.0.0.1 /index.php/Home/Index/images/portfolio-4.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000299s ]
+
+[ 2017-04-03T11:10:24+08:00 ] 127.0.0.1 /index.php/Home/Index/images/portfolio-5.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000298s ]
+
+[ 2017-04-03T11:10:24+08:00 ] 127.0.0.1 /index.php/Home/Index/images/portfolio-6.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000334s ]
+
+[ 2017-04-03T11:10:24+08:00 ] 127.0.0.1 /index.php/Home/Index/images/portfolio-7.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000456s ]
+
+[ 2017-04-03T11:10:24+08:00 ] 127.0.0.1 /index.php/Home/Index/images/portfolio-8.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001059s ]
+
+[ 2017-04-03T11:10:24+08:00 ] 127.0.0.1 /index.php/Home/Index/images/portfolio-9.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000300s ]
+
+[ 2017-04-03T11:10:24+08:00 ] 127.0.0.1 /index.php/Home/Index/images/portfolio-10.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000332s ]
+
+[ 2017-04-03T11:10:24+08:00 ] 127.0.0.1 /index.php/Home/Index/images/portfolio-11.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000331s ]
+
+[ 2017-04-03T11:10:24+08:00 ] 127.0.0.1 /index.php/Home/Index/images/portfolio-12.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000317s ]
+
+[ 2017-04-03T11:10:24+08:00 ] 127.0.0.1 /index.php/Home/Index/images/client-1.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000335s ]
+
+[ 2017-04-03T11:10:24+08:00 ] 127.0.0.1 /index.php/Home/Index/images/client-2.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000326s ]
+
+[ 2017-04-03T11:10:24+08:00 ] 127.0.0.1 /index.php/Home/Index/images/client-3.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000293s ]
+
+[ 2017-04-03T11:10:24+08:00 ] 127.0.0.1 /index.php/Home/Index/images/client-4.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000325s ]
+
+[ 2017-04-03T11:10:24+08:00 ] 127.0.0.1 /index.php/Home/Index/images/client-5.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000313s ]
+
+[ 2017-04-03T11:10:24+08:00 ] 127.0.0.1 /index.php/Home/Index/images/client-6.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000305s ]
+
+[ 2017-04-03T11:11:36+08:00 ] 127.0.0.1 /index.php/Home/Index/bootstrap/js/bootstrap.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000660s ]
+ERR: 非法操作:bootstrap
+
+[ 2017-04-03T11:11:36+08:00 ] 127.0.0.1 /index.php/Home/Index/plugins/modernizr.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000328s ]
+ERR: 非法操作:plugins
+
+[ 2017-04-03T11:11:36+08:00 ] 127.0.0.1 /index.php/Home/Index/plugins/isotope/isotope.pkgd.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000302s ]
+ERR: 非法操作:plugins
+
+[ 2017-04-03T11:11:36+08:00 ] 127.0.0.1 /index.php/Home/Index/plugins/jquery.backstretch.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000315s ]
+ERR: 非法操作:plugins
+
+[ 2017-04-03T11:11:36+08:00 ] 127.0.0.1 /index.php/Home/Index/plugins/jquery.appear.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000299s ]
+ERR: 非法操作:plugins
+
+[ 2017-04-03T11:11:36+08:00 ] 127.0.0.1 /index.php/Home/Index/js/template.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000317s ]
+ERR: 非法操作:js
+
+[ 2017-04-03T11:11:36+08:00 ] 127.0.0.1 /index.php/Home/Index/js/custom.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000292s ]
+ERR: 非法操作:js
+
+[ 2017-04-03T11:17:29+08:00 ] 127.0.0.1 /index.php/Home/Index/hui.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000407s ]
+
+[ 2017-04-03T11:17:29+08:00 ] 127.0.0.1 /index.php/Home/Index/bootstrap/js/bootstrap.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000317s ]
+ERR: 非法操作:bootstrap
+
+[ 2017-04-03T11:17:29+08:00 ] 127.0.0.1 /index.php/Home/Index/plugins/isotope/isotope.pkgd.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000316s ]
+ERR: 非法操作:plugins
+
+[ 2017-04-03T11:17:29+08:00 ] 127.0.0.1 /index.php/Home/Index/plugins/jquery.backstretch.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000297s ]
+ERR: 非法操作:plugins
+
+[ 2017-04-03T11:17:29+08:00 ] 127.0.0.1 /index.php/Home/Index/plugins/jquery.appear.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000299s ]
+ERR: 非法操作:plugins
+
+[ 2017-04-03T11:17:29+08:00 ] 127.0.0.1 /index.php/Home/Index/js/template.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000304s ]
+ERR: 非法操作:js
+
+[ 2017-04-03T11:17:29+08:00 ] 127.0.0.1 /index.php/Home/Index/js/custom.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000336s ]
+ERR: 非法操作:js
+
+[ 2017-04-03T11:17:30+08:00 ] 127.0.0.1 /index.php/Home/Index/plugins/modernizr.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000794s ]
+ERR: 非法操作:plugins
+
+[ 2017-04-03T11:17:30+08:00 ] 127.0.0.1 /index.php/Home/Index/plugins/jquery.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000426s ]
+ERR: 非法操作:plugins
+
+[ 2017-04-03T11:17:48+08:00 ] 127.0.0.1 /index.php/Home/Index/hui.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000341s ]
+
+[ 2017-04-03T11:18:47+08:00 ] 127.0.0.1 /index.php/Home/Index/hui.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000447s ]
+
+[ 2017-04-03T11:18:47+08:00 ] 127.0.0.1 /index.php/Home/Index/bootstrap/js/bootstrap.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000555s ]
+ERR: 非法操作:bootstrap
+
+[ 2017-04-03T11:18:47+08:00 ] 127.0.0.1 /index.php/Home/Index/plugins/jquery.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002774s ]
+ERR: 非法操作:plugins
+
+[ 2017-04-03T11:18:47+08:00 ] 127.0.0.1 /index.php/Home/Index/plugins/modernizr.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000639s ]
+ERR: 非法操作:plugins
+
+[ 2017-04-03T11:18:47+08:00 ] 127.0.0.1 /index.php/Home/Index/plugins/jquery.appear.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000489s ]
+ERR: 非法操作:plugins
+
+[ 2017-04-03T11:18:47+08:00 ] 127.0.0.1 /index.php/Home/Index/js/template.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000480s ]
+ERR: 非法操作:js
+
+[ 2017-04-03T11:18:47+08:00 ] 127.0.0.1 /index.php/Home/Index/js/custom.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000530s ]
+ERR: 非法操作:js
+
+[ 2017-04-03T11:18:48+08:00 ] 127.0.0.1 /index.php/Home/Index/plugins/isotope/isotope.pkgd.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000308s ]
+ERR: 非法操作:plugins
+
+[ 2017-04-03T11:18:48+08:00 ] 127.0.0.1 /index.php/Home/Index/plugins/jquery.backstretch.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000514s ]
+ERR: 非法操作:plugins
+
+[ 2017-04-03T11:20:44+08:00 ] 127.0.0.1 /index.php/Home/Index/hui.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000406s ]
+
+[ 2017-04-03T11:20:44+08:00 ] 127.0.0.1 /index.php/Home/Index/plugins/jquery.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000497s ]
+ERR: 非法操作:plugins
+
+[ 2017-04-03T11:20:44+08:00 ] 127.0.0.1 /index.php/Home/Index/bootstrap/js/bootstrap.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000487s ]
+ERR: 非法操作:bootstrap
+
+[ 2017-04-03T11:20:44+08:00 ] 127.0.0.1 /index.php/Home/Index/plugins/modernizr.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000573s ]
+ERR: 非法操作:plugins
+
+[ 2017-04-03T11:20:44+08:00 ] 127.0.0.1 /index.php/Home/Index/plugins/jquery.backstretch.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000475s ]
+ERR: 非法操作:plugins
+
+[ 2017-04-03T11:20:44+08:00 ] 127.0.0.1 /index.php/Home/Index/plugins/jquery.appear.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000812s ]
+ERR: 非法操作:plugins
+
+[ 2017-04-03T11:20:44+08:00 ] 127.0.0.1 /index.php/Home/Index/js/template.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000534s ]
+ERR: 非法操作:js
+
+[ 2017-04-03T11:20:44+08:00 ] 127.0.0.1 /index.php/Home/Index/js/custom.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000358s ]
+ERR: 非法操作:js
+
+[ 2017-04-03T11:20:45+08:00 ] 127.0.0.1 /index.php/Home/Index/plugins/isotope/isotope.pkgd.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000325s ]
+ERR: 非法操作:plugins
+
+[ 2017-04-03T11:20:58+08:00 ] 127.0.0.1 /index.php/Home/Index/hui.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000376s ]
+
+[ 2017-04-03T11:20:58+08:00 ] 127.0.0.1 /index.php/Home/Index/plugins/jquery.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000459s ]
+ERR: 非法操作:plugins
+
+[ 2017-04-03T11:20:58+08:00 ] 127.0.0.1 /index.php/Home/Index/plugins/modernizr.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000616s ]
+ERR: 非法操作:plugins
+
+[ 2017-04-03T11:20:58+08:00 ] 127.0.0.1 /index.php/Home/Index/bootstrap/js/bootstrap.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000668s ]
+ERR: 非法操作:bootstrap
+
+[ 2017-04-03T11:20:58+08:00 ] 127.0.0.1 /index.php/Home/Index/plugins/isotope/isotope.pkgd.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000356s ]
+ERR: 非法操作:plugins
+
+[ 2017-04-03T11:20:58+08:00 ] 127.0.0.1 /index.php/Home/Index/plugins/jquery.backstretch.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000364s ]
+ERR: 非法操作:plugins
+
+[ 2017-04-03T11:20:58+08:00 ] 127.0.0.1 /index.php/Home/Index/plugins/jquery.appear.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000489s ]
+ERR: 非法操作:plugins
+
+[ 2017-04-03T11:20:58+08:00 ] 127.0.0.1 /index.php/Home/Index/js/template.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000487s ]
+ERR: 非法操作:js
+
+[ 2017-04-03T11:20:58+08:00 ] 127.0.0.1 /index.php/Home/Index/js/custom.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000355s ]
+ERR: 非法操作:js
+
+[ 2017-04-03T11:22:01+08:00 ] 127.0.0.1 /index.php/Home/Index/hui.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000294s ]
+
+[ 2017-04-03T11:22:01+08:00 ] 127.0.0.1 /index.php/Home/Index/plugins/jquery.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000453s ]
+ERR: 非法操作:plugins
+
+[ 2017-04-03T11:22:01+08:00 ] 127.0.0.1 /index.php/Home/Index/bootstrap/js/bootstrap.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000491s ]
+ERR: 非法操作:bootstrap
+
+[ 2017-04-03T11:22:01+08:00 ] 127.0.0.1 /index.php/Home/Index/plugins/modernizr.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000570s ]
+ERR: 非法操作:plugins
+
+[ 2017-04-03T11:22:01+08:00 ] 127.0.0.1 /index.php/Home/Index/plugins/isotope/isotope.pkgd.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000432s ]
+ERR: 非法操作:plugins
+
+[ 2017-04-03T11:22:01+08:00 ] 127.0.0.1 /index.php/Home/Index/plugins/jquery.backstretch.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000327s ]
+ERR: 非法操作:plugins
+
+[ 2017-04-03T11:22:01+08:00 ] 127.0.0.1 /index.php/Home/Index/plugins/jquery.appear.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000606s ]
+ERR: 非法操作:plugins
+
+[ 2017-04-03T11:22:01+08:00 ] 127.0.0.1 /index.php/Home/Index/js/template.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000614s ]
+ERR: 非法操作:js
+
+[ 2017-04-03T11:22:02+08:00 ] 127.0.0.1 /index.php/Home/Index/js/custom.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000381s ]
+ERR: 非法操作:js
+
+[ 2017-04-03T11:29:59+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000346s ]
+
+[ 2017-04-03T11:30:03+08:00 ] 127.0.0.1 /index.php/Home/Index/hui.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000274s ]
+
+[ 2017-04-03T11:30:04+08:00 ] 127.0.0.1 /index.php/Home/Index/images/banner.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000367s ]
+
+[ 2017-04-03T11:30:57+08:00 ] 127.0.0.1 /index.php/Home/Index/hui.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000428s ]
+
+[ 2017-04-03T11:30:58+08:00 ] 127.0.0.1 /index.php/Home/Index/images/banner.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000577s ]
+
+[ 2017-04-03T11:32:59+08:00 ] 127.0.0.1 /index.php/Home/Index/hui.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000326s ]
+
+[ 2017-04-03T11:32:59+08:00 ] 127.0.0.1 /index.php/Home/Index/images/banner.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000279s ]
+
+[ 2017-04-03T11:33:27+08:00 ] 127.0.0.1 /index.php/Home/Index/hui.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000297s ]
+
+[ 2017-04-03T11:33:27+08:00 ] 127.0.0.1 /index.php/Home/Index/images/banner.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000633s ]
+
+[ 2017-04-03T11:33:48+08:00 ] 127.0.0.1 /index.php/Home/Index/hui.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000333s ]
+
+[ 2017-04-03T11:33:48+08:00 ] 127.0.0.1 /index.php/Home/Index/images/banner.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000365s ]
+
+[ 2017-04-03T11:34:02+08:00 ] 127.0.0.1 /index.php/Home/Index/hui.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000247s ]
+
+[ 2017-04-03T11:34:03+08:00 ] 127.0.0.1 /index.php/Home/Index/images/banner.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000379s ]
+
+[ 2017-04-03T11:35:54+08:00 ] 127.0.0.1 /index.php/Home/Index/hui.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000119s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000664s ]
+
+[ 2017-04-03T11:35:54+08:00 ] 127.0.0.1 /index.php/Home/Index/images/banner.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000449s ]
+
+[ 2017-04-03T11:41:26+08:00 ] 127.0.0.1 /index.php/Home/Index/hui.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000404s ]
+
+[ 2017-04-03T11:42:39+08:00 ] 127.0.0.1 /index.php/Home/Index/hui.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000294s ]
+
+[ 2017-04-03T11:44:03+08:00 ] 127.0.0.1 /index.php/Home/Index/hui.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000356s ]
+
+[ 2017-04-03T11:45:52+08:00 ] 127.0.0.1 /index.php/Home/Index/hui.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000399s ]
+
+[ 2017-04-03T11:47:37+08:00 ] 127.0.0.1 /index.php/Home/Index/hui.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000368s ]
+
+[ 2017-04-03T11:47:38+08:00 ] 127.0.0.1 /index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000302s ]
+
+[ 2017-04-03T11:47:44+08:00 ] 127.0.0.1 /index.php/Home/Index/hui.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000269s ]
+
+[ 2017-04-03T21:30:12+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000486s ]
+
+[ 2017-04-03T21:30:15+08:00 ] 127.0.0.1 /index.php/Home/Topic/forum.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000460s ]
+
+[ 2017-04-03T22:27:10+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000564s ]
+
+[ 2017-04-03T22:27:13+08:00 ] 127.0.0.1 /index.php/Home/User/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000287s ]
+
+[ 2017-04-03T23:32:27+08:00 ] ::1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000369s ]
+
+[ 2017-04-03T23:32:34+08:00 ] ::1 /index.php/Home/User/register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000244s ]
+
